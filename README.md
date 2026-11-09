@@ -7,7 +7,7 @@
 ### 📫 Contato & Redes Sociais
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilhermenere/)
-[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](guilhermenere18@gmail.com)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)]([guilhermenere18@gmail.com](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox))
 ---
 
 ### 👋 Sobre
