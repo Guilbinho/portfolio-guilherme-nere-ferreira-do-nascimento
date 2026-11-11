@@ -31,7 +31,7 @@ Desenvolvido como parte da disciplina de **Desenvolvimento Front-End Para Web (2
 Este projeto utilizou inteligência artificial ([Nome do Modelo, ex: ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte tecnológico para [Finalidade, ex: estruturação inicial do HTML e revisão do CSS]. Todo o código gerado foi revisado, testado e compreendido por mim, garantindo a minha responsabilidade integral sobre a autoria final, integridade e funcionamento da aplicação.
 
 ## 💻 Deploy do projeto
-[Clique para acessar](https://guilbinho.github.io/NOME-DO-REPO/AT1-Paginas-HTML/jarb-site/)
+[Clique para acessar](file:///C:/Users/GUILHERMENASCIMENTO/Downloads/portfolio/AT1-Paginas-HTML/jarb-site/index.html)
 
 ---
 [Voltar ao início](https://github.com/Guilbinho/NOME-DO-REPO)
