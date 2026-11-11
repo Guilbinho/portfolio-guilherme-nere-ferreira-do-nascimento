@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dicionário de Dados - Trimix Sorveteria</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="top"><button id="menu" aria-label="Menu">&#9776;</button><div><b>Dicionário de Dados</b><small> Trimix Sorveteria - Sistema de Gestão Operacional e Vendas</small></div><button id="theme">Claro/Escuro</button></header>
+<nav id="side"></nav>
+<main>
+<section id="ident"><h2>Identificação do Projeto</h2>
+<p><b>Escopo:</b> banco de dados da rede Trimix Sorveteria (4 lojas, atendimento de balcão) para vendas, caixa, estoque por loja, transferências, estornos, segurança (RBAC), auditoria e LGPD.</p>
+<p><b>Tecnologia:</b> MySQL 8.0, engine InnoDB. <b>Orientador:</b> Prof. Dr. Diego Marques de Carvalho. Grupo 07, UNICID.</p>
+<p><b>Responsáveis:</b></p><ul>
+<li>Data Owners (regras de negócio): Marcos Vinicius da Silveira, Lohany Shimabukuro, Guilherme David Viana de Oliveira.</li>
+<li>Data Stewards (qualidade técnica e dicionário): Felipe Domingos de Lacerda, Guilherme Nere Ferreira do Nascimento, Gustavo Cardoso Silva, Caique Sanches.</li>
+<li>Apoio: Samuel Victor Ferreira, Renato Alexandre Silva de Almeida, Alexsander Rosa Ribeiro, Gustavo Henrique Lima dos Santos.</li></ul></section>
+<section class="panel"><a class="btn" href="docs/Especificacao_Requisitos_Regras_Negocio_BD.pdf" download>Baixar Especificação de Requisitos (PDF)</a>
+<button class="btn" id="derBtn">Abrir DER</button><input id="q" type="search" placeholder="Buscar tabela ou coluna..."></section>
+<div id="dict"></div>
+</main>
+<div id="modal" hidden><div class="mbar"><button id="zi">Zoom +</button><button id="zo">Zoom -</button><button id="zr">Reset</button><button id="zx">Fechar</button></div>
+<div id="stage"><img id="der" src="assets/der.png" alt="DER Trimix Sorveteria"></div></div>
+<script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+<script src="script.js"></script></body></html>

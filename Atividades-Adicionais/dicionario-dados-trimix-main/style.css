@@ -1,0 +1,17 @@
+:root{--p:#D81B60;--bg:#FFF8E7;--c:#fff;--t:#2b2b2b;--b:#e3d8c0}
+:root[data-t=dark]{--bg:#1c1518;--c:#2a2024;--t:#f1e8ea;--b:#4a3a40}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.5 system-ui,sans-serif}
+.top{position:fixed;top:0;left:0;right:0;height:54px;background:var(--p);color:#fff;display:flex;align-items:center;gap:12px;padding:0 12px;z-index:5}
+.top div{flex:1}.top small{opacity:.9}.top button{background:#0003;color:#fff;border:0;padding:8px 10px;border-radius:6px;cursor:pointer}
+#side{position:fixed;top:54px;bottom:0;left:0;width:230px;overflow:auto;background:var(--c);border-right:1px solid var(--b);padding:8px}
+#side a{display:block;padding:6px 8px;color:var(--t);text-decoration:none;border-radius:6px}#side a:hover{background:var(--p);color:#fff}
+main{margin:54px 0 0 230px;padding:16px}section{background:var(--c);border:1px solid var(--b);border-radius:10px;padding:14px;margin-bottom:16px}
+h2{color:var(--p);margin-top:0}.panel{display:flex;gap:10px;flex-wrap:wrap}.panel input{flex:1;min-width:200px;padding:9px;border:1px solid var(--b);border-radius:6px;background:var(--bg);color:var(--t)}
+.btn{background:var(--p);color:#fff;border:0;padding:9px 14px;border-radius:6px;text-decoration:none;cursor:pointer;font:inherit}
+.w{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border:1px solid var(--b);padding:6px;text-align:left;vertical-align:top}th{background:var(--p);color:#fff}
+.g{padding:2px 7px;border-radius:10px;font-weight:700;color:#000}.DPS{background:#e53935;color:#fff}.DP{background:#fdd835}.NA{background:#66bb6a}
+#modal{position:fixed;inset:0;background:#000d;z-index:10;display:flex;flex-direction:column}#modal[hidden]{display:none}
+.mbar{display:flex;gap:8px;padding:8px;justify-content:center}.mbar button{padding:8px 14px;border:0;border-radius:6px;background:var(--p);color:#fff}
+#stage{flex:1;overflow:hidden;cursor:grab;touch-action:none}#der{max-width:100%;max-height:100%;display:block;margin:auto;background:#fff}
+@media(max-width:800px){#side{transform:translateX(-100%);transition:.2s;z-index:6}#side.o{transform:none}main{margin-left:0}}
+@media(min-width:801px){#menu{display:none}}
